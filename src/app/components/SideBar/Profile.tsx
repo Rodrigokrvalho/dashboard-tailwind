@@ -8,7 +8,7 @@ export function Profile({}: Props) {
 
   return (
     <div className="grid items-center gap-3 grid-cols-profile">
-      <img src="https://github.com/rodrigokrvalho.png" alt="Rodrigo" />
+      <img className="h-10 w-10 rounded-full" src="https://github.com/rodrigokrvalho.png" alt="Rodrigo" />
       <div className="flex flex-col flex-1 truncate">
         <span className="text-sm font-semibold text-zinc-700">Rodrigo Carvalho</span>
         <span className="text-sm text-zinc-500 truncate">rodrigos-carvalho@hotmail.com</span>
